@@ -376,7 +376,7 @@ align-items: flex-start;
 .slider .slick-arrow{
     cursor: pointer;
     position: absolute;
-    top: 20%;
+    top: 40%;
     margin: -60px 0 0 0 ;
     z-index: 2;
     font-size: 0;
