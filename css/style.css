@@ -323,6 +323,10 @@ text-align: center;
     text-align: center;
     color: inherit;
     font-weight: bold;
+    margin-top: 60px;
+}
+.comment__portfolio {
+    margin: 30px 0;
 }
 /* ================slider================ */
 
@@ -367,7 +371,7 @@ align-items: flex-start;
 .slick-dots li button{}
 .slider {
     position: relative;
-
+    height: 100%;
 }
 .slider .slick-arrow{
     cursor: pointer;
@@ -390,6 +394,7 @@ background: url('../img/slider/right.png') 0 0 / 100% no-repeat;
 
 }
 .slider__item {
+    
 }
 .slider .slick-dots{
     margin-top: 10px;
@@ -422,7 +427,7 @@ border: 1px solid rgb(47, 196, 245);
 }
 
 .portfolio__btn {
-    margin-top: 10px;
+    margin-top: 40px;
     background-color: aquamarine;
     width: 150px;
     height: 40px;
@@ -536,7 +541,7 @@ border: 1px solid rgb(47, 196, 245);
     .lang {
     margin: 20px 0 10px 0;
     position: absolute;
-    top: 10;
+    top: 0;
     right: 0;
     }
     .me__prof {
@@ -651,7 +656,7 @@ border: 1px solid rgb(47, 196, 245);
         left: 0;
 }
     .menu__link {
-        font-size: 32px;
+        font-size: 25px;
         margin-top: 10px;
     }
 }
