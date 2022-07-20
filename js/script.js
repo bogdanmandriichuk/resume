@@ -1,5 +1,14 @@
 //slider
+
 $(document).ready(function(){
+    $('.autoplay').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        dots: true,
+        adaptiveHeight: true,
+      });
     $('.slider').slick({
         arrows: true,
         dots: true,
