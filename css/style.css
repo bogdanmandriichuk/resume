@@ -539,6 +539,10 @@ border: 1px solid rgb(47, 196, 245);
     transition: background-color linear .3s;
     
 }
+.telegram_img {
+    margin-top: -6px;
+    
+}
 .send__btn:hover {
     background-color: rgb(90, 179, 150);
 }
@@ -552,6 +556,9 @@ border: 1px solid rgb(47, 196, 245);
 .social__image {
     margin-left: 10px;
     max-width: 30px;
+}
+.telegram_img {
+
 }
 .block-contact__social {
     margin-top: 50px;
