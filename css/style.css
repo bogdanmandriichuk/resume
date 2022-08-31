@@ -566,7 +566,7 @@ border: 1px solid rgb(47, 196, 245);
 .social__body {
     display: flex;
     justify-content: center;
-    margin-right: 9px;
+    
 }
 .social__body-link {
     display: block;
