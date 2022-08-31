@@ -867,22 +867,22 @@ border: 1px solid rgb(47, 196, 245);
   font-size: 3em;
   background-color: transparent;
   color: rgb(255, 251, 0);
-  box-shadow: 2px 2px 2px #00ffe1f2, 10px 1px 12px #00ffe1f2, 2px 2px 10px #00ffe1f2, 2px 2px 3px #00ffe1f2, inset 2px 2px 10px #00ffe1f2, inset 2px 2px 10px #00ffe1f2, inset 2px 2px 10px #00ffe580, inset 2px 2px 10px #00ffe1f2;
+  /* box-shadow: 2px 2px 2px #00ffe1f2, 10px 1px 12px #00ffe1f2, 2px 2px 10px #00ffe1f2, 2px 2px 3px #00ffe1f2, inset 2px 2px 10px #00ffe1f2, inset 2px 2px 10px #00ffe1f2, inset 2px 2px 10px #00ffe580, inset 2px 2px 10px #00ffe1f2; */
 border-radius: 29px;
 padding: 10px 19px;
 /* margin: 0 40px; */
-animation: animate 4s linear infinite;
-text-shadow: 0 0 50px #fdff8c, 0 0 100px #a7fff3, 0 0 150px #a9d0ff, 0 0 200px #faf283;
+animation: animate 10s linear infinite;
+text-shadow: 0 0 50px #000000, 0 0 100px #026b5d, 0 0 150px #000000, 0 0 200px #026b5d;
 cursor: pointer;
 }
 #instagram {
-  animation-delay: 0.3s;
+  animation-delay: 1s;
 }
 #facebook {
-  animation-delay: 0.7s;
+  animation-delay: 6s;
 }
 #telegram {
-  animation-delay: 0.1s;
+  animation-delay: 4s;
 }
 
 @keyframes animate {
